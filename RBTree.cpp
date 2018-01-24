@@ -512,6 +512,7 @@ void RBTree::Remove(int key)
 	}
 
 	Remove(pNode);
+	delete pNode;
 }
 
 //gets the node with the minimum value in the tree rooted at pNode
